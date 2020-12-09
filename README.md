@@ -6,6 +6,12 @@ GPU accelerated julia module for computing secant avoidance projections (SAP) on
 
 * CUDA compatible GPU
 
+## Installation
+Simply clone the repository and then activate the environment in julia by calling 
+    
+    cd("/path/to/SAP/");
+    Pkg.activate(".");
+
 ## Example
 Users can run the example script [SAP_example.jl](src/SAP_example.jl) located in the [src](src) directory to run SAP on a toy dataset. All figures and interative plots are contained in the [Figures](Figures) directory.
 
