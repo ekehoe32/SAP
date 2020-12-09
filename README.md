@@ -3,6 +3,7 @@ GPU accelerated julia module for computing secant avoidance projections (SAP) on
 
 ## Requirements
 CUDA Toolkit v10.1 or greater
+
 CUDA compatible GPU
 
 ## Example
