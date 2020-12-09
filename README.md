@@ -2,9 +2,9 @@
 GPU accelerated julia module for computing secant avoidance projections (SAP) on large data sets.
 
 ## Requirements
-CUDA Toolkit v10.1 or greater
+* CUDA Toolkit v10.1 or greater
 
-CUDA compatible GPU
+* CUDA compatible GPU
 
 ## Example
 Users can run the example script SAP_example.jl located in the src directory to run SAP on a toy dataset.
