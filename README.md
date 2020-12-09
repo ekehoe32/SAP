@@ -11,6 +11,7 @@ Simply clone the repository and then activate the environment in julia by callin
     
     cd("/path/to/SAP/");
     Pkg.activate(".");
+    using SAP;
 
 ## Example
 Users can run the example script [SAP_example.jl](src/SAP_example.jl) located in the [src](src) directory to run SAP on a toy dataset. All figures and interative plots are contained in the [Figures](Figures) directory.
